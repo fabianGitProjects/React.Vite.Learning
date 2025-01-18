@@ -1,0 +1,19 @@
+.btn{
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: lightgreen;
+}
+
+.btn-confirm{
+    background-color: aqua;
+}
+
+.btn-letsgo{
+    background-color: blueviolet;
+}
+

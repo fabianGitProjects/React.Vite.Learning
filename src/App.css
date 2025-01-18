@@ -1,0 +1,17 @@
+/* Container für das Bild */
+.bspdiv {
+    display: flex;
+    justify-content: center; /* Zentriert das Bild horizontal */
+    align-items: flex-start; /* Das Bild wird oben im Container ausgerichtet */
+    width: 100%;              /* Der Container nimmt die gesamte Breite ein */
+    height: auto;             /* Containerhöhe wird an die Bildhöhe angepasst */
+    padding: 0 20px;          /* Fügt Abstände an den Seiten hinzu (z.B. 20px links und rechts) */
+    box-sizing: border-box;   /* Box-Modell berücksichtigt Padding und Border */
+}
+
+/* Das Bild */
+.bspbild {
+    max-width: 80%;           /* Bild nimmt maximal 80% der Breite des Containers ein */
+    height: auto;             /* Höhe des Bildes bleibt im richtigen Verhältnis */
+    object-fit: contain;      /* Bild bleibt im richtigen Seitenverhältnis */
+}

@@ -1,0 +1,21 @@
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:3rem;
+  
+    .hero-text-container{
+      background-color:rgb(176, 167, 167);
+      border-radius: 1rem;
+      color:black;
+      padding: 2rem;
+    }
+  
+  
+  }
+  
+  
+  
+  
+  
